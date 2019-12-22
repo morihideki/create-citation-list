@@ -4,7 +4,7 @@ library(stringr)
 
 my_txt <- read_file("02_text.md")
 my_regex <- "([A-Z][a-z]+\\sand\\s)?[A-Z][a-z]+\\s(et\\sal.?,?\\s)?[(]?\\d{4}"
-str_view_all(my_txt, my_regex)
+# str_view_all(my_txt, my_regex)
 
 cite_found <- str_extract_all(my_txt, my_regex, simplify = TRUE) %>% 
   str_remove_all("\\(") %>% 
