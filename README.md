@@ -1,3 +1,3 @@
 # create-citation-list
 
-Wordファイル（.docx）から引用文献を抽出して引用文献リストにするためのスクリプト。
+Wordファイル（01_text.docx）から引用文献を抽出して引用文献リスト（04_citation_list.docx）にするためのスクリプト。
